@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Transferência em lote
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  adicionar itens automaticamente na transferencia em lotes!
 // @author       Lucas Berto
 // @match        https://www.bling.com.br/b/produtos.php
