@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Transferência em lote
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  adicionar itens automaticamente na transferencia em lotes!
 // @author       Lucas Berto
 // @match        https://www.bling.com.br/b/produtos.php
@@ -58,7 +58,7 @@
     const data = $("#pesquisa-mini").val().split(" ");
     const ok = confirm(data.length + " produtos encontrados. Prosseguir?");
     if (ok) {
-      produtos = data;
+      produtos = data.reverse();
       processaProximoProduto();
     }
   };
